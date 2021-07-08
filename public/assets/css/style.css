@@ -1,0 +1,229 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   box-sizing: border-box;
+}
+header {
+   display: flex;
+   height: 85px;
+   width: 100%;
+   justify-content: space-around;
+   align-items: center;
+}
+header h1 {
+   display: flex;
+   color: #01996d;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   width: 500px;
+}
+nav a {
+   text-decoration: none;
+   color: #292929;
+}
+a:hover {
+   color: #01996d;
+}
+header div {
+   display: flex;
+   width: 440px;
+   height: 40px;
+}
+.buttons {
+   display: flex;
+   justify-content: space-between;
+   width: 200px;
+}
+.sign {
+   border: none;
+   color: #000000;
+   background-color: transparent;
+}
+.start {
+   background-color: #01996d;
+   border: 1px solid #01996d;
+   color: #ffffff;
+   width: 140px;
+   height: 30px;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+   border-radius: 4px;
+}
+.first {
+   background: url('/assets/img/radu.jpg') no-repeat;
+   height: 895px;
+}
+.Be {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 400px;
+   height: 200px;
+   padding: 10%;
+}
+.Be h1 {
+   color: #01996d;
+   font-size: 25px;
+}
+.btn1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #01996d;
+   color: #ffffff;
+   width: 120px;
+   height: 38px;
+   border: 1px solid #01996d;
+}
+.article2 {
+   display: flex;
+   justify-content: center;
+}
+.second {
+   height: 40vh;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+}
+
+.how {
+   display: flex;
+   flex-direction: column;
+   width: 584px;
+}
+
+.how h3 {
+   color: #01996d;
+   font: size 30px;
+}
+.jour {
+   display: flex;
+   width: 400px;
+}
+.article3 {
+   display: flex;
+   justify-content: space-evenly;
+   height: 800px;
+   width: 100%;
+   margin-bottom: 5%;
+}
+.items {
+   display: flex;
+}
+.perso {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-self: flex-start;
+   width: 290px;
+   height: 700px;
+}
+.write {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-self: flex-end;
+   width: 290px;
+   height: 700px;
+}
+
+.Alivio {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-self: center;
+   width: 290px;
+   height: 700px;
+}
+h4 {
+   font-size: 70px;
+   color: #01996d33;
+   opacity: 1;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span {
+   color: #000000;
+   font-size: 15px;
+   margin-left: -20px;
+}
+
+/*  for solutions.html   */
+.sucess {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   height: 60vh;
+}
+
+.get {
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   height: 200px;
+}
+.img {
+   display: flex;
+   width: 400px;
+   height: 300px;
+}
+
+/* for community.html */
+.custom {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 350px;
+   height: 400px;
+
+   background: #01996d url(/assets/images/court.jpg) no-repeat;
+}
+.sucess {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 80vh;
+}
+.bg {
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 200px;
+   background-color: #ffff;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: -250px;
+   margin-left: -200px;
+   border: 2px solid #0000;
+}
+h3 {
+   border-top: 1px solid #0000;
+}
+figure img {
+   border-top: 5px solid #0000;
+}
+
+.our {
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   height: 200px;
+}
+
+footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   background-color: #01996d;
+   color: #ffffff;
+   height: 50vh;
+   padding-left: 10%;
+}
